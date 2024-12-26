@@ -1,0 +1,40 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "Company A",
+      "location": "Location A",
+      "linkedin": "https://linkedin.com/company-a",
+      "emails": ["contact@companya.com"],
+      "phoneNumbers": ["123-456-7890"],
+      "comments": "Important client",
+      "periodicity": 14
+    },
+    {
+      "id": 2,
+      "name": "Company B",
+      "location": "Location B",
+      "linkedin": "https://linkedin.com/company-b",
+      "emails": ["contact@companyb.com"],
+      "phoneNumbers": ["098-765-4321"],
+      "comments": "Potential partner",
+      "periodicity": 30
+    }
+  ],
+  "communications": [
+    {
+      "id": 1,
+      "companyId": 1,
+      "type": "LinkedIn Post",
+      "date": "2023-09-05",
+      "notes": "Posted about our new product"
+    },
+    {
+      "id": 2,
+      "companyId": 1,
+      "type": "Email",
+      "date": "2023-09-01",
+      "notes": "Sent follow-up email"
+    }
+  ]
+}
